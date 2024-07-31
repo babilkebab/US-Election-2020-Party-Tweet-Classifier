@@ -1,5 +1,5 @@
 import pandas as pd
-from TweetClassifier import TweetClassifier
+from src.TweetClassifier import TweetClassifier
 
 
 final_ds = pd.read_csv("ds/complete_ds.csv", parse_dates=True)
