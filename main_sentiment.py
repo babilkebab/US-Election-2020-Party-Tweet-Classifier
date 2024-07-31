@@ -1,6 +1,6 @@
 import pandas as pd
 import lexicon_update
-from SentimentAnalyzer import SentimentAnalyzer
+from src.SentimentAnalyzer import SentimentAnalyzer
 
 
 biden_ds = pd.read_csv("ds/hashtag_joebiden.csv", lineterminator='\n', parse_dates=True)
