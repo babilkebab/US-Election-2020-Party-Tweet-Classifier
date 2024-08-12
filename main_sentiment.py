@@ -1,5 +1,5 @@
 import pandas as pd
-import lexicon_update
+import src.lexicon_update
 from src.SentimentAnalyzer import SentimentAnalyzer
 
 
